@@ -43,6 +43,14 @@ public class Loops {
             n++;
         } while (n <= 5);
 
+        /*ENHANCED FOR-LOOP (ONLY FOR ARRAY)*/
+        System.out.println("🟡 ENHANCED FOR-LOOP (ONLY FOR ARRAY)");
+        int[] arr = {23, 45, 678, 345, 23};
+
+        for (int j : arr) {
+            System.out.println(j + " ");
+
+        }
 
     }
 }
